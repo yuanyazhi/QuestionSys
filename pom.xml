@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.study</groupId>
+    <artifactId>Shuli-2021</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>java</name>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>java-channel</module>
+        <module>java-content</module>
+        <module>java-member</module>
+        <module>java-question</module>
+        <module>java-study</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+    
+</project>
